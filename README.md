@@ -20,8 +20,8 @@ Antes de comenzar, asegurate de tener instalado lo siguiente:
 
 1. Fork y clonación del repositorio
 
-- Realicé un **fork** del repositorio original: [ewojjowe/static-website](https://github.com/ewojjowe/static-website)
-- Cloné el repositorio forkeado en mi máquina:
+- Realice un **fork** del repositorio original: [ewojjowe/static-website](https://github.com/ewojjowe/static-website)
+- Clone el repositorio forkeado en mi máquina:
 
 git clone https://github.com/tu_usuario/static-website.git
 
