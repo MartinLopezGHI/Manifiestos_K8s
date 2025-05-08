@@ -21,19 +21,19 @@ Antes de comenzar, asegurate de tener instalado lo siguiente:
 1. Fork y clonación del repositorio
 
 - Realice un **fork** del repositorio original: [ewojjowe/static-website](https://github.com/ewojjowe/static-website)
-- Clone el repositorio forkeado en mi máquina:
+- Clone el repositorio forkeado en su máquina:
 
 git clone https://github.com/tu_usuario/static-website.git
 
 2. Iniciar Minikube con volumen montado
 
-minikube start --mount --mount-string="C:/Users/ruta_a/static-website:/mnt/web"
+minikube start --mount --mount-string="C:/Users/ruta_a/static-website:/mnt/web" (Asegure de colocar SU ruta)
 Esto monta el sitio web local en el path /mnt/web dentro del contenedor.
 
 3. Aplicar los manifiestos de Kubernetes
 Los manifiestos se encuentran en la carpeta K8s/Manifiestos_K8s, divididos por tipo:
 
-cd "C:/Users/ruta_a/Manifiestos_K8s"
+cd "C:/Users/ruta_a/Manifiestos_K8s" (Asegure de colocar SU ruta)
 
 cd deployment
 kubectl apply -f .
